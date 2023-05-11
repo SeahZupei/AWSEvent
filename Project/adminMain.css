@@ -1,0 +1,26 @@
+.card{
+    margin-top: 1vw;;
+}
+
+.footer1{
+    margin-top: 1vw;
+}
+
+
+
+.card-body{
+    border-right: 2px solid black;  
+    background-color: rgba(117, 109, 114, 0.33);
+}
+
+.card-body:hover{
+    background-color: rgba(6, 6, 6, 0.33);
+
+}
+.card-title{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
