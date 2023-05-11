@@ -1,0 +1,203 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 24 Aug 2022, 9:25:06 pm
+    Author     : User
+*/
+
+html{
+    width: 100%;
+}
+
+body{
+  background-image: linear-gradient(goldenrod, white,goldenrod);
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.header{
+   background-image: url(image/background.jpg);
+   width: 100%;
+   height: 22vw;
+   display: flex;
+   flex-direction: column;
+}   
+
+.clubName{
+   padding:0vw 20vw 0 5vw;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 35px;
+   text-shadow: 6px 2px 4px #8FE3CF ; 
+}
+
+.clubName>p{
+   margin: 0 10vw 5vw 0;   
+   padding-right: 10vw;
+}
+
+.nameLogo{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.imglogo{
+   width: 12vw;
+   height: 12vw;
+   margin-right: 25vw;
+}
+
+.nav{
+   display: flex;
+   padding-left: 37vw;
+   justify-content: center;
+   align-items: center;
+}
+
+.module {
+  padding:1vw 2vw;
+  background-color: none;
+  text-decoration: none;
+}
+
+.module>a{
+   text-decoration: none;
+   color: white;
+}
+
+.module:hover{
+   transform: scale(1.2);
+   transition-duration: 1s;
+   text-shadow: 6px 2px 4px #F2DF3A ; 
+}
+
+
+
+footer{
+   margin-top: 5vw;
+   border-top: 4px solid orange ;
+   border-bottom: 4px solid orange ;
+   display: flex;
+   background-color: #FAD9A1;
+    opacity: 70%;
+
+}
+
+
+.text{
+   width: 40vw;
+   padding:0 4vw;
+   text-align: justify;
+   border-right: 2px dashed black;
+}
+
+.icon{
+   margin-top: 20px;
+}
+.facebook{
+   text-decoration: none;
+}
+
+.gmail{
+   text-decoration: none;
+}
+
+.function{
+   display: flex;
+   flex-direction: column;
+   margin-left: 10vw;
+   margin-top: 2vw;
+}
+
+.functionDetails{
+   margin:1vw 0 1vw 0;
+   padding: 1vw;
+   text-decoration: none;
+   text-align: center;
+   border-radius: 10%;
+   font-size: 1.3vw;
+   border: 2px solid black;
+   box-shadow: 3px 3px 2px skyblue;
+}
+
+.functionDetails:hover{
+   transform: scale(1.2) ;
+   box-shadow: 3px 3px 7px #003865;
+   transition-duration: 1s;
+}
+
+
+
+
+fieldset{
+    margin: 0 3vw 4vw 3vw;
+    border: 3px solid black;
+    box-shadow: 0 0 10px white;     
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+fieldset:hover{
+     transform: scale(1.02);
+    transition-duration: 1s;
+    
+}
+legend{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 5vw;   
+}
+
+.col{
+    display: flex;
+}
+
+.image{
+    margin-top: 2vw;
+    margin-left: 2.5vw;
+    margin-bottom: 2vw;
+    border-radius: 100px;     
+}
+
+.poster{
+    border-radius: 3%; 
+    box-shadow: 2px 2px 100px snow;
+}
+
+table,th,td{
+    border:none;
+    border-collapse: collapse;
+    margin-left: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    padding-bottom: 2vw;
+    font-family: 'Montserrat';
+    text-align: left;
+    font-size: 20px;
+}
+.desc{
+    border: 2px solid black;
+    box-shadow: 2px 2px 20px black;
+    padding: 2vw;
+}
+
+.button{
+    margin-left: 60vw;
+    border: none;   
+    background-color: rgba(103, 92, 98, 0.2);
+    padding: 5px 20px;
+    border-radius: 5px;
+    
+}
+
+.button:hover{
+    transform: scale(1.3);
+    transition-duration: 1s;
+    background-color: rgba(103, 92, 98, 0.36);
+    box-shadow: 2px 2px 10px black;
+}
+
