@@ -1,0 +1,136 @@
+html{
+    width: 100%;
+}
+
+body{
+  background-image: linear-gradient(goldenrod, white,goldenrod);
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.header{
+   background-image: url(../image/background.jpg);
+   width: 100%;
+   height: 22vw;
+   display: flex;
+   flex-direction: column;
+}   
+
+.clubName{
+   padding:0vw 20vw 0 5vw;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 35px;
+   text-shadow: 6px 2px 4px #8FE3CF ; 
+}
+
+.clubName>p{
+   margin: 0 10vw 5vw 0;   
+   padding-right: 10vw;
+}
+
+.nameLogo{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.imglogo{
+   width: 12vw;
+   height: 12vw;
+   margin-right: 25vw;
+}
+
+.nav{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left:40vw;
+}
+
+.module {
+  padding:1vw 2vw;
+  background-color: none;
+  text-decoration: none;
+}
+
+.module>a{
+   text-decoration: none;
+   color: white;
+}
+
+.module:hover{
+   transform: scale(1.2);
+   transition-duration: 1s;
+   text-shadow: 6px 2px 4px #F2DF3A ; 
+}
+
+footer{
+   margin-top: 5vw;
+   border-top: 4px solid orange ;
+   border-bottom: 4px solid orange ;
+   display: flex;
+   background-color: #FAD9A1;
+    opacity: 90%;
+
+}
+
+
+.text{
+   width: 40vw;
+   padding:0 4vw;
+   text-align: justify;
+   border-right: 2px dashed black;
+}
+
+.icon{
+   margin-top: 20px;
+}
+.facebook{
+   text-decoration: none;
+}
+
+.gmail{
+   text-decoration: none;
+}
+
+.function{
+   display: flex;
+   flex-direction: column;
+   margin-left: 10vw;
+   margin-top: 2vw;
+}
+
+.functionDetails{
+   margin:1vw 0 1vw 0;
+   padding: 1vw;
+   text-decoration: none;
+   text-align: center;
+   border-radius: 10%;
+   font-size: 1.3vw;
+   border: 2px solid black;
+   box-shadow: 3px 3px 2px skyblue;
+}
+
+.functionDetails:hover{
+   transform: scale(1.2) ;
+   box-shadow: 3px 3px 7px #003865;
+   transition-duration: 1s;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+input.form-control{
+    height: 26px;   
+    border-radius: 0%;
+}
+
+.searchInput{
+    margin-right: 5px;
+}
+
+
